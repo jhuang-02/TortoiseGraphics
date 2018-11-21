@@ -12,5 +12,6 @@
         <page name='Draw My Name in Chinese'/>
         <page name='Draw my name in English'/>
         <page name='Line art'/>
+        <page name='Line art 2'/>
     </pages>
 </playground>
