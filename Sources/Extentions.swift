@@ -197,7 +197,7 @@ public extension Tortoise {
         self.right(90)
         self.curve(withSize: 300, withSize: 10 * scale, drawSides: 2)
         self.right(120)
-        self.curve(withSize: 40, withSize    : 20 * scale, drawSides: 3)
+        self.curve(withSize: 40, withSize: 20 * scale, drawSides: 3)
     }
 
     func huang() {
