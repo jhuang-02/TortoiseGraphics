@@ -10,7 +10,7 @@ PlaygroundPage.current.liveView = canvas
 
 canvas.drawing { turtle in
     
-    for _ in 1...50 {
+    for _ in 1...80 {
         
         // Turn a random amount
         let turn = turtle.random(360)
