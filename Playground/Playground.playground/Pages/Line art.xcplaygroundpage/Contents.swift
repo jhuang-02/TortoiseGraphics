@@ -9,7 +9,6 @@ canvas.color = .white
 PlaygroundPage.current.liveView = canvas
 
 canvas.drawing { turtle in
-    
     for _ in 1...80 {
         
         // Turn a random amount

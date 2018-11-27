@@ -1,5 +1,3 @@
-//: # With a tortoise 🐢
-//: [👉 With 2 tortoises 🐢🐢](@next)
 import PlaygroundSupport
 import TortoiseGraphics
 import CoreGraphics
@@ -11,29 +9,10 @@ canvas.color = .white
 PlaygroundPage.current.liveView = canvas
 
 //start drawing
-canvas.drawing { turtle in
-   for _ in 1...24
-   {
-    turtle.right(15)
-    for _ in 1...4
-    {
-        turtle.forward(90)
-        turtle.right(45)
-        turtle.forward(30)
-        turtle.right(45)
-        turtle.forward(90)
-    }
-    }
-    for _ in 1...12
-    {
-        turtle.right(30)
-        for _ in 1...4
-        {
-            turtle.forward(70)
-            turtle.right(45)
-            turtle.forward(30)
-            turtle.right(45)
-            turtle.forward(70)
-        }
+canvas.drawing { t in
+    for _ in 1...24{
+        t.specialSquare()
+        
     }
 }
+

@@ -9,6 +9,6 @@ canvas.color = .white
 PlaygroundPage.current.liveView = canvas
 
 //start drawing
-canvas.drawing { turtle in
+canvas.drawing { t in
     
 }

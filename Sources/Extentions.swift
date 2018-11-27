@@ -303,4 +303,26 @@ public extension Tortoise {
         self.left(140)
         self.curve(withSize: 100, withSize: 10, drawSides: 10)
     }
+
+    func specialSquare() {
+        for _ in 1...4 {
+            self.forward(90)
+            self.right(45)
+            self.forward(30)
+            self.right(45)
+            self.forward(90)
+        }
+        self.right(15)
+    }
+
+    func dashedCircle() {
+    for _ in 1...36 {
+    self.penUp()
+    self.forward(9)
+    self.right(5)
+    self.penDown()
+    self.forward(11)
+    self.right(5)
+    }
+    }
 }
