@@ -318,10 +318,10 @@ public extension Tortoise {
     func dashedCircle() {
     for _ in 1...36 {
     self.penUp()
-    self.forward(9)
+    self.forward(5)
     self.right(5)
     self.penDown()
-    self.forward(11)
+    self.forward(10)
     self.right(5)
     }
     }

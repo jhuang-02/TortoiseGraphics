@@ -12,7 +12,7 @@ PlaygroundPage.current.liveView = canvas
 canvas.drawing { t in
     for _ in 1...24{
         t.specialSquare()
-        
     }
+   
 }
 
